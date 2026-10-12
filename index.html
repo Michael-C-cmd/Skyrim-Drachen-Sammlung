@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragon collection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My dragon collection</h1>
+    </header>
+    <main>
+      <section class="actions">
+        <section class="action" id="addDragon">
+          <h2>Add to my list</h2>
+          <div class="attributes attributes--inputs">
+            <label class="attributes--label" for="dragonName">Name:</label>
+            <input class="attributes--input" id="dragonName" type="text" />
+          </div>
+          <span class="hint">This field must be filled</span>
+          <div class="attributes attributes--inputs">
+            <label class="attributes--label" for="dragonType">Type:</label>
+            <input class="attributes--input" id="dragonType" type="text" />
+          </div>
+          <span class="hint">This field must be filled</span>
+          <div class="attributes attributes--inputs">
+            <label class="attributes--label" for="dragonLocation"
+              >Location:</label
+            >
+            <input class="attributes--input" id="dragonLocation" type="text" />
+          </div>
+          <span class="hint">This field must be filled</span>
+          <div class="attributes attributes--inputs">
+            <label class="attributes--label" for="isDefeated">Defeated:</label>
+            <select class="attributes--input" id="isDefeated">
+              <option value="true">YES</option>
+              <option value="false">NO</option>
+            </select>
+          </div>
+          <span class="hint">This field must be filled</span>
+          <div class="attributes attributes--inputs">
+            <label class="attributes--label" for="healthPoints">HP:</label>
+            <input class="attributes--input" id="healthPoints" type="text" />
+          </div>
+          <span class="hint">This field must be filled</span>
+
+          <br />
+          <button class="main--btn" id="addBtn">Add dragon</button>
+        </section>
+
+        <section class="action" id="defeatStatus">
+          <h2>Change defeat status</h2>
+          <div class="attributes">
+            <select name="dragonList" id="defeatStatusDragonList"></select>
+          </div>
+          <button class="main--btn" id="toggleBtn">Change status</button>
+        </section>
+        <section class="action" id="removeDragon">
+          <h2>Remove from my list</h2>
+          <div class="attributes">
+            <select name="dragonList" id="removeDragonDragonList"></select>
+          </div>
+          <button class="main--btn" id="removeBtn">Remove dragon</button>
+        </section>
+        <!-- <section class="action"> -->
+
+        <!-- </section> -->
+      </section>
+      <button class="main--btn" id="displayBtn">Show dragon list</button>
+      <ul id="output"></ul>
+    </main>
+
+    <script type="module" src="app.mjs"></script>
+  </body>
+</html>
