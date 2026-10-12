@@ -1,10 +1,10 @@
-Skyrim-Drachen-Sammlung
+Skyrim-Drachen-Sammlung:
 
 Eine interaktive Sammlung von Drachen aus Skyrim – gefangen, verwaltet und dauerhaft gespeichert. Übungsaufgabe aus meinem JavaScript-Lernplan mit Fokus auf State-Management und Persistenz.
 
 
 
-Features
+Features:
 
 Drachen fangen, Sammlung verwalten, gefangene Drachen freilassen
 
